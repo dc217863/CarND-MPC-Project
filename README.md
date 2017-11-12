@@ -105,7 +105,7 @@ for instructions and the project rubric.
 
 ## References
 
-* <https://medium.com/self-driving-cars/five-different-udacity-student-controllers-4b13cc8f2d0
+* <https://medium.com/self-driving-cars/five-different-udacity-student-controllers-4b13cc8f2d0>
 * <https://medium.com/@NickHortovanyi/carnd-controls-mpc-2f456ce658f>
 * <https://towardsdatascience.com/how-self-driving-cars-steer-c8e4b5b55d7f>
 * <https://github.com/mvirgo/MPC-Project>
