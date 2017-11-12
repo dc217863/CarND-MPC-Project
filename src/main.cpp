@@ -98,7 +98,7 @@ int main() {
           Eigen::VectorXd ptsy_car(ptsy.size());
 
           // transform points to vehicles orientation
-          for (int i=0; i<ptsx.size(); i++) {
+          for (size_t i=0; i<ptsx.size(); i++) {
               ptsx_car[i] = (ptsx[i] - px) * cos(-psi) - (ptsy[i] - py) * sin(-psi);
               ptsy_car[i] = (ptsx[i] - px) * sin(-psi) + (ptsy[i] - py) * cos(-psi);
           }
@@ -155,7 +155,7 @@ int main() {
           //.. add (x,y) points to list here, points are in reference to the vehicle's coordinate system
           // the points in the simulator are connected by a Green line
 
-          for (int i = 2; i < vars.size(); i+=2) {
+          for (size_t i = 2; i < vars.size(); i+=2) {
             mpc_x_vals.push_back(vars[i]);
             mpc_y_vals.push_back(vars[i+1]);
           }
